@@ -6,8 +6,8 @@ import Announcement from './Components/Announcement/Announcement'
 export default function App() {
   return (
     <div>
-    <Announcement/>
-     <Navbar/>
+    {/* <Announcement/>
+     <Navbar/> */}
       <Home/>
       
     </div>

@@ -3,8 +3,8 @@ import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
 import { useState } from "react";
 import styled from "styled-components";
-import { sliderItems } from "../data";
-import { mobile } from "../responsive";
+import { sliderItems } from "../../pages/data";
+import { mobile } from "../../pages/responsive";
 
 const Container = styled.div`
   width: 100%;
@@ -56,6 +56,8 @@ const ImgContainer = styled.div`
 
 const Image = styled.img`
   height: 80%;
+ width: 50vw;
+ position: absolute;
 `;
 
 const InfoContainer = styled.div`
@@ -64,14 +66,16 @@ const InfoContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 70px;
+  font-size:1.5em;
+ position: relative;
 `;
 
 const Desc = styled.p`
   margin: 50px 0px;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 1em;
+  font-weight: 300;
   letter-spacing: 3px;
+  position: relative;
 `;
 
 const Button = styled.button`
@@ -79,6 +83,7 @@ const Button = styled.button`
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
+  position: relative;
 `;
 const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(0);
