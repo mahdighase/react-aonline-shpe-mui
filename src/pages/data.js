@@ -47,7 +47,7 @@ export const sliderItems = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://dkstatics-public.digikala.com/digikala-products/1ec8c01bc2d05b86ba2c141c4e85ef8457a59135_1676909095.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
     },
     {
       id:3,
@@ -55,11 +55,11 @@ export const sliderItems = [
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://dkstatics-public.digikala.com/digikala-products/d00d7560363c9384cffc2686f5966e0a706bc8d0_1681501759.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
     },
     {
       id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      img:"https://dkstatics-public.digikala.com/digikala-products/e2e238836c73c1154727a61671dc1988738e53d0_1643637477.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_90",
     },
     {
       id:6,
@@ -67,7 +67,7 @@ export const sliderItems = [
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://dkstatics-public.digikala.com/digikala-products/1b4a3fdb27a68dd931f035d24d757027f755280a_1705150485.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
     },
     {
       id:8,
