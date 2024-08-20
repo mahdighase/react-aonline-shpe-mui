@@ -8,7 +8,7 @@
   text-decoration: none;
   list-style: none;
   color: black;
-  
+  overflow-x: hidden;
 }
 /* body {
   margin: 0;

@@ -1,15 +1,20 @@
-import { Badge, Container as MuiContainer } from '@mui/material';
+import { Badge} from '@mui/material';
 import React from 'react';
 import styled from 'styled-components';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 export default function Navbar() {  
+  const Container=styled.div`
+  height:60px;`
   const Wrapper = styled.div`
     padding:10px 20px;
+    // background-color: blue;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
+    // height:90%;
+       
   `;
 
   const SearchContainer = styled.div`
@@ -31,9 +36,6 @@ export default function Navbar() {
     cursor: pointer;
   `;
 
-  const NavbarContainer = styled.div`
-    height: 60px;
-  `;
 
   const Center = styled.div`
     flex: 1;
@@ -62,8 +64,7 @@ export default function Navbar() {
   `;
 
   return (
-    <MuiContainer>
-      <NavbarContainer>
+    <Container>
         <Wrapper>
           <Left>
             <Language>EN</Language>
@@ -83,7 +84,6 @@ export default function Navbar() {
             </MenuItem>
           </Right>
         </Wrapper>
-      </NavbarContainer>
-    </MuiContainer>
+    </Container>
   );
 }
