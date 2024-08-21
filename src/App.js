@@ -1,7 +1,10 @@
 import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
+// import Navbar from './Components/Navbar/Navbar'
 import Home from './pages/Home/Home'
-import Announcement from './Components/Announcement/Announcement'
+// import Login from './pages/Login'
+// import Product from './pages/Product'
+// import Announcement from './Components/Announcement/Announcement'
+
 
 export default function App() {
   return (
@@ -9,6 +12,8 @@ export default function App() {
     {/* <Announcement/>
      <Navbar/> */}
       <Home/>
+      
+      
       
     </div>
   )

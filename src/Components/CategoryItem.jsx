@@ -9,8 +9,8 @@ const Container = styled.div`
 `;
 
 const Image = styled.img`
-  width: 98%;
-  height: 80%;
+  width: 99%;
+  height: 99%;
 //   object-fit: cover;
   ${mobile({ height: "20vh" })}
 
@@ -48,7 +48,7 @@ const CategoryItem = ({ item }) => {
       <Image src={item.img} />
       <Info>
         <Title>{item.title}</Title>
-        <Button>SHOP NOW</Button>
+        <Button><a href="/SHOPE-NOW"></a>SHOP NOW</Button>
       </Info>
     </Container>
   );

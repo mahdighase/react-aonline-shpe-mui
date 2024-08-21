@@ -1,11 +1,11 @@
 import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
 import RemoveCircleOutlineOutlinedIcon from '@mui/icons-material/RemoveCircleOutlineOutlined';
 import styled from "styled-components";
-import Announcement from "../components/Announcement";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Announcement from "../Components/Announcement/Announcement";
+import Footer from "../Components/Footer/Footer";
+import Navbar from "../Components/Navbar/Navbar";
 import Newsletter from "../Components/Newsletter";
-import { mobile } from "../responsive";
+import { mobile } from "../pages/responsive";
 
 const Container = styled.div``;
 

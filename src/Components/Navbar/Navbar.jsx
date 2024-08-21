@@ -67,7 +67,7 @@ export default function Navbar() {
     <Container>
         <Wrapper>
           <Left>
-            <Language>EN</Language>
+            <Language><a href="/EN">EN</a></Language>
             <SearchContainer>
               <Input />
               <SearchIcon style={{ color: 'gray', fontSize: 16 }} />
@@ -75,8 +75,8 @@ export default function Navbar() {
           </Left> 
           <Center><Logo>LAMA.</Logo></Center>
           <Right>
-            <MenuItem>REGISTER</MenuItem>  
-            <MenuItem>SIGN IN</MenuItem>  
+            <MenuItem><a href="/REGISTER">REGISTER</a></MenuItem>  
+            <MenuItem><a href='/SIGN-IN'>SIGN IN</a></MenuItem>  
             <MenuItem>
               <Badge badgeContent={4} color="primary">
                 <ShoppingCartIcon />
